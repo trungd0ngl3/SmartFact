@@ -1,2 +1,5 @@
-fastapi
-uvicorn[standard]
+fastapi[standard]
+psycopg2-binary     # driver kết nối PostgreSQL
+sqlalchemy          # ORM (tuỳ chọn)
+alembic             # migration (tuỳ chọn)
+python-dotenv       # quản lý biến môi trường
